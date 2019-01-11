@@ -1,9 +1,11 @@
 package com.bilbomatica.springdata.pojo;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Arrays;
 
+@Document(collection="comentarios")
 public class Family {
 
     @Id
