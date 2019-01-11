@@ -16,7 +16,7 @@ public class Comment {
 
     private String texto;
 
-    private Person[] persona;
+    private Persons[] persona;
 
     private int selfId;
 
@@ -31,7 +31,7 @@ public class Comment {
         this.persona = null;
     }
 
-    public Comment( Family[] familia, String texto, Person[] persona, int comentarioId) {
+    public Comment( Family[] familia, String texto, Persons[] persona, int comentarioId) {
 
         this.familia = familia;
         this.texto = texto;
@@ -55,11 +55,11 @@ public class Comment {
         this.texto = texto;
     }
 
-    public Person[] getPersona() {
+    public Persons[] getPersona() {
         return persona;
     }
 
-    public void setPersona(Person[] persona) {
+    public void setPersona(Persons[] persona) {
         this.persona = persona;
     }
 

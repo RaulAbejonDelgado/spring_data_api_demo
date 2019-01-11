@@ -2,7 +2,7 @@ package com.bilbomatica.springdata.pojo;
 
 import org.springframework.data.annotation.Id;
 
-public class Person  {
+public class Persons  {
 
     @Id
     private String id;

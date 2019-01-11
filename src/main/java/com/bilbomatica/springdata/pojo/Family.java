@@ -13,7 +13,7 @@ public class Family {
 
     private String nombre;
 
-    private Person[] personas;
+    private Persons[] personas;
 
 
     public Family() {
@@ -22,18 +22,18 @@ public class Family {
 
     }
 
-    public Family(int selfId, String nombre, Person[] personas) {
+    public Family(int selfId, String nombre, Persons[] personas) {
 
         this.selfId = selfId;
         this.nombre = nombre;
         this.personas = personas;
     }
 
-    public Person[] getPersonas() {
+    public Persons[] getPersonas() {
         return personas;
     }
 
-    public void setPersonas(Person[] personas) {
+    public void setPersonas(Persons[] personas) {
         this.personas = personas;
     }
 
