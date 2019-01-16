@@ -21,10 +21,10 @@ import java.util.Arrays;
 @NoArgsConstructor
 public class Family {
 
-
+    @Id
     private String id;
 
-    @Id
+
     private int selfId;
 
     private String nombre;
